@@ -47,6 +47,7 @@ def main():
                 print("Game Over!")
                 sys.exit()
 
+
         pygame.display.flip()
         dt = (clock.tick(60) / 1000)
 
